@@ -35,6 +35,7 @@ defmodule ContentSecurityPolicy.Directive do
             | :style_src_elem
             | :webrtc
             | :worker_src
+            | :require_trusted_types_for
 
   @doc """
   Returns a list of all valid directives.
